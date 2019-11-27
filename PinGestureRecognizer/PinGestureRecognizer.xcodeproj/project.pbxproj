@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		055D07B9238E0DA90038E2AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055D07B8238E0DA90038E2AA /* AppDelegate.swift */; };
+		055D07BB238E0DA90038E2AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055D07BA238E0DA90038E2AA /* SceneDelegate.swift */; };
+		055D07BD238E0DA90038E2AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055D07BC238E0DA90038E2AA /* ViewController.swift */; };
+		055D07C0238E0DA90038E2AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 055D07BE238E0DA90038E2AA /* Main.storyboard */; };
+		055D07C2238E0DAE0038E2AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055D07C1238E0DAE0038E2AA /* Assets.xcassets */; };
+		055D07C5238E0DAE0038E2AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 055D07C3238E0DAE0038E2AA /* LaunchScreen.storyboard */; };
+		055D07D0238E0DAE0038E2AA /* PinGestureRecognizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055D07CF238E0DAE0038E2AA /* PinGestureRecognizerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		055D07CC238E0DAE0038E2AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 055D07AD238E0DA90038E2AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 055D07B4238E0DA90038E2AA;
+			remoteInfo = PinGestureRecognizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		055D07B5238E0DA90038E2AA /* PinGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		055D07B8238E0DA90038E2AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		055D07BA238E0DA90038E2AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		055D07BC238E0DA90038E2AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		055D07BF238E0DA90038E2AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		055D07C1238E0DAE0038E2AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		055D07C4238E0DAE0038E2AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		055D07C6238E0DAE0038E2AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		055D07CB238E0DAE0038E2AA /* PinGestureRecognizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinGestureRecognizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		055D07CF238E0DAE0038E2AA /* PinGestureRecognizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinGestureRecognizerUITests.swift; sourceTree = "<group>"; };
+		055D07D1238E0DAE0038E2AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		055D07B2238E0DA90038E2AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		055D07C8238E0DAE0038E2AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		055D07AC238E0DA90038E2AA = {
+			isa = PBXGroup;
+			children = (
+				055D07B7238E0DA90038E2AA /* PinGestureRecognizer */,
+				055D07CE238E0DAE0038E2AA /* PinGestureRecognizerUITests */,
+				055D07B6238E0DA90038E2AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		055D07B6238E0DA90038E2AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				055D07B5238E0DA90038E2AA /* PinGestureRecognizer.app */,
+				055D07CB238E0DAE0038E2AA /* PinGestureRecognizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		055D07B7238E0DA90038E2AA /* PinGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				055D07B8238E0DA90038E2AA /* AppDelegate.swift */,
+				055D07BA238E0DA90038E2AA /* SceneDelegate.swift */,
+				055D07BC238E0DA90038E2AA /* ViewController.swift */,
+				055D07BE238E0DA90038E2AA /* Main.storyboard */,
+				055D07C1238E0DAE0038E2AA /* Assets.xcassets */,
+				055D07C3238E0DAE0038E2AA /* LaunchScreen.storyboard */,
+				055D07C6238E0DAE0038E2AA /* Info.plist */,
+			);
+			path = PinGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		055D07CE238E0DAE0038E2AA /* PinGestureRecognizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				055D07CF238E0DAE0038E2AA /* PinGestureRecognizerUITests.swift */,
+				055D07D1238E0DAE0038E2AA /* Info.plist */,
+			);
+			path = PinGestureRecognizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		055D07B4238E0DA90038E2AA /* PinGestureRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 055D07D4238E0DAE0038E2AA /* Build configuration list for PBXNativeTarget "PinGestureRecognizer" */;
+			buildPhases = (
+				055D07B1238E0DA90038E2AA /* Sources */,
+				055D07B2238E0DA90038E2AA /* Frameworks */,
+				055D07B3238E0DA90038E2AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinGestureRecognizer;
+			productName = PinGestureRecognizer;
+			productReference = 055D07B5238E0DA90038E2AA /* PinGestureRecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		055D07CA238E0DAE0038E2AA /* PinGestureRecognizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 055D07D7238E0DAE0038E2AA /* Build configuration list for PBXNativeTarget "PinGestureRecognizerUITests" */;
+			buildPhases = (
+				055D07C7238E0DAE0038E2AA /* Sources */,
+				055D07C8238E0DAE0038E2AA /* Frameworks */,
+				055D07C9238E0DAE0038E2AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				055D07CD238E0DAE0038E2AA /* PBXTargetDependency */,
+			);
+			name = PinGestureRecognizerUITests;
+			productName = PinGestureRecognizerUITests;
+			productReference = 055D07CB238E0DAE0038E2AA /* PinGestureRecognizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		055D07AD238E0DA90038E2AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Eugene Berezin";
+				TargetAttributes = {
+					055D07B4238E0DA90038E2AA = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					055D07CA238E0DAE0038E2AA = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 055D07B4238E0DA90038E2AA;
+					};
+				};
+			};
+			buildConfigurationList = 055D07B0238E0DA90038E2AA /* Build configuration list for PBXProject "PinGestureRecognizer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 055D07AC238E0DA90038E2AA;
+			productRefGroup = 055D07B6238E0DA90038E2AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				055D07B4238E0DA90038E2AA /* PinGestureRecognizer */,
+				055D07CA238E0DAE0038E2AA /* PinGestureRecognizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		055D07B3238E0DA90038E2AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				055D07C5238E0DAE0038E2AA /* LaunchScreen.storyboard in Resources */,
+				055D07C2238E0DAE0038E2AA /* Assets.xcassets in Resources */,
+				055D07C0238E0DA90038E2AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		055D07C9238E0DAE0038E2AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		055D07B1238E0DA90038E2AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				055D07BD238E0DA90038E2AA /* ViewController.swift in Sources */,
+				055D07B9238E0DA90038E2AA /* AppDelegate.swift in Sources */,
+				055D07BB238E0DA90038E2AA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		055D07C7238E0DAE0038E2AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				055D07D0238E0DAE0038E2AA /* PinGestureRecognizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		055D07CD238E0DAE0038E2AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 055D07B4238E0DA90038E2AA /* PinGestureRecognizer */;
+			targetProxy = 055D07CC238E0DAE0038E2AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		055D07BE238E0DA90038E2AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				055D07BF238E0DA90038E2AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		055D07C3238E0DAE0038E2AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				055D07C4238E0DAE0038E2AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		055D07D2238E0DAE0038E2AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		055D07D3238E0DAE0038E2AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		055D07D5238E0DAE0038E2AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JGX8KL9J9F;
+				INFOPLIST_FILE = PinGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-pingest.PinGestureRecognizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		055D07D6238E0DAE0038E2AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JGX8KL9J9F;
+				INFOPLIST_FILE = PinGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-pingest.PinGestureRecognizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		055D07D8238E0DAE0038E2AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JGX8KL9J9F;
+				INFOPLIST_FILE = PinGestureRecognizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-pingest.PinGestureRecognizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PinGestureRecognizer;
+			};
+			name = Debug;
+		};
+		055D07D9238E0DAE0038E2AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JGX8KL9J9F;
+				INFOPLIST_FILE = PinGestureRecognizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-pingest.PinGestureRecognizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PinGestureRecognizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		055D07B0238E0DA90038E2AA /* Build configuration list for PBXProject "PinGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				055D07D2238E0DAE0038E2AA /* Debug */,
+				055D07D3238E0DAE0038E2AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		055D07D4238E0DAE0038E2AA /* Build configuration list for PBXNativeTarget "PinGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				055D07D5238E0DAE0038E2AA /* Debug */,
+				055D07D6238E0DAE0038E2AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		055D07D7238E0DAE0038E2AA /* Build configuration list for PBXNativeTarget "PinGestureRecognizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				055D07D8238E0DAE0038E2AA /* Debug */,
+				055D07D9238E0DAE0038E2AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 055D07AD238E0DA90038E2AA /* Project object */;
+}
